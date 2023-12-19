@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SunnyCare</title>
+    <link rel="icon" href="icons/icovect.svg" type="icons/icovect.svg">
+
+   <link rel="preload" href="css/master.css" as="style">
+   <link rel="stylesheet" href="css/master.css">
+
+   <link rel="preload" href="css/nivo-slider.css" as="style">
+   <link rel="stylesheet" href="css/nivo-slider.css">
+   <link rel="preload" href="css/mi-slider.css" as="style">
+   <link rel="stylesheet" href="css/mi-slider.css">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+	<script src="js/jquery.nivo.slider.js"></script>
+
+	<script type="text/javascript"> 
+		$(window).on('load', function() {
+		    $('#slider').nivoSlider(); 
+		}); 
+	</script>
+</head>
+
+<body>
+	<div class="contenedor">
+		<header class="header" id="id_header">
+			<div class="logos">
+                <img src="icons/icovect.svg" alt="logo_pagina" class="logo" id="id_logo">
+                <div class="logo_texts">
+                    <h2 class="logo_text">Sunny</h2>
+                    <h2 class="logo_text">Care</h2>
+                </div>
+            </div>
+		</header>
+        <div class="menu">
+            <div><a>INICIO</a></div>
+            <div><a>CLIMA MX</a></div>
+            <div><a>FILTRAR CLIMA</a></div>
+            <div><a>CONTACTO</a></div>
+        </div>
+        <div class="nav">
+            <input type="checkbox" class="checkbox">
+            <span></span>
+            <span></span>
+            <div class="d_menu">
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#">CLIMA MX</a></li>
+                <li><a href="#">FILTRAR CLIMA</a></li>
+                <li><a href="#">CONTACTO</a></li>
+            </div>
+        </div>
+		<main class="main">
+            <div class="slide">
+                <div class="slider-wrapper theme-mi-slider">
+                    <div id="slider" class="nivoSlider">     
+                        <img src="img/1.jpg" alt="" title="#htmlcaption1" />    
+                        <img src="img/2.jpg" alt="" title="#htmlcaption2" />    
+                        <img src="img/3.jpg" alt="" title="#htmlcaption3" />     
+                    </div> 
+                    <div id="htmlcaption1" class="nivo-html-caption">     
+                        <h1>imagen1</h1>
+                    </div>
+                    <div id="htmlcaption2" class="nivo-html-caption">     
+                        <h1>imagen2</h1>
+                    </div>
+                    <div id="htmlcaption3" class="nivo-html-caption">     
+                        <h1>imagen4</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="content1">
+                <img  src="img/imagen2.png" alt="imagen2"/>
+                <h2>Descubre el clima en México al instante. Tu fuente confiable para pronósticos precisos. </h2>
+                <a>¡Planifica tu día con nosotros!</a>
+            </div>
+            <div class="content1a">
+                <img  src="img/imagen3.png" alt="imagen3"/>
+            </div>
+            <div class="content2">
+                <div class="logos">
+                    <img src="icons/animated/cloudy-day-2.svg" alt="">
+                    <img src="icons/animated/day.svg" alt="">
+                    <img src="icons/animated/rainy-5.svg" alt="">
+                </div>
+                <h2>Obtén información precisa y actualizada sobre las condiciones climáticas en tiempo real.</h2>
+                <div class="logos">
+                    <img src="icons/animated/cloudy-night-2.svg" alt="">
+                    <img src="icons/animated/night.svg" alt="">
+                    <img src="icons/animated/thunder.svg" alt="">
+                </div>
+            </div>
+            <div class="content2a">
+                <img  src="img/imagen4.png" alt="imagen4"/>
+            </div>
+            <div class="content3">
+                <h2>¡Prepárate para tu semana con nuestra herramienta! </h2></div>
+            <div class="content3a"><h2>CONTENT3</h2></div>
+            <div class="content4"><h2>CONTENT4</h2></div>
+            <div class="content4a"><h2>CONTENT4</h2></div>
+		</main>
+        <div class="back">
+            <a href="#id_header">
+                <img src="icons/goback.svg" alt="regresar" class="gb_ico">
+            </a>
+        </div>
+		<footer class="footer">
+			<div class="logos">
+                <img src="icons/icovect.svg" alt="logo_pagina" class="logo" id="id_logo">
+                <div class="logo_texts">
+                    <h2 class="logo_text">Sunny</h2>
+                    <h2 class="logo_text">Care</h2>
+                </div>
+            </div>
+            <div class="derechos"><h2>derechos</h2></div>
+            <div class="sobre_nosotros">
+                <div class="redes">
+                    <img src="icons/redes/facebook.svg" alt="">
+                    <img src="icons/redes/instagram.svg" alt="">
+                    <img src="icons/redes/twitter.svg" alt="">
+                </div>
+                <h2 class="redes_text">Conoce más de SunnyCare</h2>
+            </div>
+		</footer>
+	</div>
+</body>
+</html>
